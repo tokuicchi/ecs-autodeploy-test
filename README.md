@@ -41,10 +41,10 @@ $ cd src/envs/staging
 $ terraform init
 
 # Resource Apply
-$ terraform apply -var="domain_name=example.com"
+$ terraform apply -var="domain_name={yourdomain.com}"
 
 # Resource Destroy
-$ terraform destroy -var="domain_name=example.com"
+$ terraform destroy -var="domain_name={yourdomain.com}"
 ```
 
 Execute utilities
